@@ -1,0 +1,754 @@
+.container{
+	width: 100%;
+	max-width: 150%;
+	background-color: grey;
+	margin: 0;
+	padding: 0;
+}
+*{
+	text-decoration: none;
+	font-family: Tahoma;
+	margin: 0;
+	padding: 0;
+}
+
+/*-------------------------- Header informativo --------------------------*/
+.iHeader{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+
+.hDate{
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	color: grey;
+}
+.hDate p{
+	padding-left: 90px;
+}
+.hInf{
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+
+}
+.hInf ul{
+	list-style: none;
+	width: 100%;
+	position: relative;
+}
+.hInf li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.hInf a{
+	color: grey;
+}
+span{
+	color: white;
+}
+.hInf a:hover{
+	color: white;
+}
+
+/*-------------------------- Header menú --------------------------*/
+.mHeader{
+	position: relative;
+	width: 100%;
+	display: block;
+	background-color: #a0a0a0;
+	
+}
+.title1{
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+}
+.title1 img{
+	padding-left: 40px;
+	margin-top: 10px;
+	width: 65px;
+	height: 65px;
+	position: relative;
+	top: 0px;
+	left: 150px;
+}
+.title1 a{
+	position: relative;
+	left: 170px;
+	top: -20px;
+	font-size: 25px;
+	color: white;
+}
+
+.links{
+	display: inline-block;
+	text-align: right;
+	width: 45%;
+}
+.links ul{
+	list-style: none;
+	width: 100%;
+	position: relative;
+	top: -20px;
+}
+.links li{
+	display: inline-block;
+	padding: 10px;	
+}
+.links a{
+	color: white;
+}
+.links a:hover{
+	color: grey;
+}
+/*-------------------------- Principal --------------------------*/
+.principal{
+	width: 100%;
+	background-color: #c5cccc;/*#a0a0a0;*/
+	padding-top: 150px;
+}
+.principal img{
+	position: relative;
+	left: 250px;
+}
+.principal h1 span{
+	position: absolute;
+	left: 650px;
+	top: 200px;
+	font-size: 65px;
+	color: #fb4363;
+}
+.principal h2 span{
+	position: absolute;
+	left: 670px;
+	top: 270px;
+	font-size: 35px;
+	color: #538df7;
+}
+.principal h3 span{
+	position: absolute;
+	left: 685px;
+	top: 350px;
+	font-size: 20px;
+	color: grey;
+}
+.principal a{
+	position: absolute;
+	left: 715px;
+	top: 420px;
+	color: white;
+}
+.boton{
+	border: 1px solid #fb4363;
+	padding: 10px;
+	border-radius: 50px;
+	background-color: #fb4363;
+}
+.boton:hover{
+	background-color: #f92248;
+}
+
+/*-------------------------- Experience of Yoga --------------------------*/
+.experience{
+	width: 100%;
+	background-color: #dcdede;
+	padding-top: 150px;
+}
+.experience h2{
+	text-align: center;
+	font-size: 35px;
+	color: #ff8da1;
+}
+.experience h3{
+	text-align: center;
+	font-size: 35px;
+	color: blue;
+}
+.experience p{
+	text-align: center;
+	position: relative;
+	left: 150px;
+	width: 80%;
+	font-size: 15px;
+	color: grey;
+}
+.left{
+	width: 30%;
+	position: relative;
+	top: 35px;
+	left: -35px;
+	display: inline-block;
+}
+.leftText{
+	width: 100%;
+	position: relative;
+	left: 10px;
+}
+.leftText h3{
+	text-align: right;
+	font-size: 25px;
+	color: grey;
+}
+.leftText p{
+	text-align: right;
+	font-size: 15px;
+	position: relative;
+	left: 80px;
+}
+.left1 img{
+	position: relative;
+	left: 400px;
+	bottom: 90px;
+}
+.left2 img{
+	position: relative;
+	left: 400px;
+	bottom: 90px;
+}
+.left3 img{
+	position: relative;
+	left: 400px;
+	bottom: 90px;
+}
+.center{
+	width: 30%;
+	display: inline-block;
+}
+.center img{
+	position: relative;
+	left: 40px;
+	bottom: 150px;
+	width: 390px;
+	height: 390px;
+}
+.right{
+	width: 30%;
+	position: relative;
+	left: 110px;
+	top: 40px;
+	display: inline-block;
+}
+.rightText{
+	width: 100%;
+	position: relative;
+	right: 150px;
+
+}
+.rightText h3{
+	text-align: right;
+	font-size: 25px;
+	color: grey;
+}
+.rightText p{
+	text-align: right;
+	font-size: 15px;
+	position: relative;
+	left: 80px;
+}
+
+.right1 img{
+	position: relative;
+	right: 150px;
+	bottom: 90px;
+}
+.right2 img{
+	position: relative;
+	right: 150px;
+	bottom: 90px;
+}
+.right3 img{
+	position: relative;
+	right: 150px;
+	bottom: 90px;
+}
+/*-------------------------- Banner --------------------------*/
+.banner{
+	width: 100%;
+	background: #11a3b18a;
+}
+.bannerTitle{
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	color: white;
+}
+.bannerTitle h2{
+	font-size: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+.banner a{
+	position: relative;
+	left: 150px;
+	color: white;
+	display: inline-block;
+}
+.boton2{
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 50px;
+}
+.boton2:hover{
+	background-color:#0ba6b5;
+}
+/*-------------------------- Our Classes --------------------------*/
+.classes{
+	width: 100%;
+	background-color: #dcdede;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.classes h2{
+	text-align: center;
+	font-size: 25px;
+	color: grey;
+}
+.gallery{
+	width: 90%;
+	margin: auto;
+}
+.gImg{
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+}
+.gImg img{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+}
+/*Agregar hover*/
+.gImg img:hover{
+	backface-visibility: hidden;
+  	transform: scale(1.2, 1.2);
+  	opacity: 0.5;
+}
+
+.gImg h3, p{
+	font-size: 15px;
+	color: grey;
+}
+/*-------------------------- Banner Parallax --------------------------*/
+.bannerParallax{
+	width: 100%;
+	height: 350px;
+	background: #ff5bdc;
+	opacity: 0.5;
+	text-align: center;
+	color: white;
+	background-image: url("../img/yoga7.jpg");
+    background-attachment: fixed;
+    background-position: center;
+   	background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerParallax img{
+	width: 70px;
+	height: 70px;
+}
+.bannerParallax h3{
+	width: 60%;
+	margin: auto;
+	font-size: 15px;
+	line-height: 30px;
+	margin-left: 250px;
+}
+.bannerParallax h2{
+	font-size: 20px;
+}
+/*-------------------------- Classes Timetable --------------------------*/
+.timetable{
+	width: 100%;
+	background-color: #dcdede;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.timetable h2{
+	text-align: center;
+	font-size: 25px;
+	color: grey; 
+}
+.opt{
+	width: 65%;
+	margin-left: 150px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: inline-block;
+}
+.opt ul{
+	list-style: none;
+	width: 100%;
+	position: relative;
+}
+.opt li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.opt a{
+	color: grey;
+	padding-bottom: 5px;
+	border-bottom: solid;
+	border-color: white;
+}
+.opt a:hover{
+	border-color: red;
+}
+.timetable table{
+	text-align: center;
+	margin: auto;
+}
+.timetable th{
+	width:  10em;
+
+}
+	
+		#bla{
+			background-color: white;
+		}
+		#ky{
+			background-color:#e8bc6f;
+			color: white;
+		}
+
+		#mf{
+			background-color: #73c6cd;
+			color: white;
+
+		}
+		#ay{
+			color: white;
+			background-color: #cd7399;
+		}
+		#yd{
+			color: white;
+			background-color: #62aed6;
+		}
+		#hy{
+			color: white;
+			background-color: #e4926e;
+		}
+/*-------------------------- Testimonial --------------------------*/
+.banner3{
+	width: 100%;
+	background-color: #5cdabd;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.banCont{
+	width: 70%;
+	position: relative;
+	left: 200px;
+	border-style: solid;
+	border-color: white;
+}
+.banImg{
+	position: relative;
+	left: 50px;
+	border-radius: 50%;
+	display: inline-block;
+
+}
+.banImg img{
+	margin: 20px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+}
+.social{
+	position: relative;
+	left: 70px;
+	bottom: 30px;
+	display: inline-block;
+	
+}
+.social h3{
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+.social p{
+	font-size: 14px;
+	color: white;
+}
+.social img{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	left: 0px;
+	margin: 3px;
+
+}
+.banText{
+	width: 60%;
+	margin: 10px;
+	position: relative;
+	left: 90px;
+	bottom: 15px;
+	display: inline-block;
+}
+.banText p{
+	text-align: justify;
+	font-size: 12px;
+	color: white;
+}
+.banText span{
+	color: red;
+}
+/*-------------------------- Phrase --------------------------*/
+.phrase{
+	width: 100%;
+	background-color: #c5cccc;/*#a0a0a0;*/
+	padding-top: 150px;
+}
+.phrase img{
+	position: relative;
+	left: 140px;
+}
+.phrase h1 span{
+	position: relative;
+	left: 480px;
+	bottom: 300px;
+	font-size: 50px;
+	color: #fb4363;
+}
+.phrase h2 span{
+	position: relative;
+	left: 740px;
+	bottom: 300px;
+	font-size: 35px;
+	color: #538df7;
+}
+.phrase h3 span{
+	position: relative;
+	left: 845px;
+	bottom: 300px;
+	font-size: 20px;
+	color: grey;
+}
+/*-------------------------- Counter --------------------------*/
+.counter{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	background-color:#e2a14f; 
+}
+.counter ul{
+	list-style: none;
+}
+.counter li{
+	display: inline-block;
+	margin:20px;
+}
+.counter img{
+	display: inline-block;
+}
+.counter h3, p{
+	color: black;
+	font-size: 15px;
+}
+/*-------------------------- Shop --------------------------*/
+.shop{
+	width: 100%;
+	background-color: #dcdede;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.shop h2{
+	text-align: center;
+	font-size: 25px;
+	color: grey;
+}
+.yShop{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+.yImg{
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+}
+.yImg img{
+	width: 170px;
+	height: 170px;
+	margin: 10px;
+	padding: 10px;
+}
+/*Agregar hover*/
+.yImg img:hover{
+	backface-visibility: hidden;
+  	transform: scale(1.2, 1.2);
+  	opacity: 0.5;
+}
+
+.yImg h3, p{
+	font-size: 15px;
+	color: grey;
+}
+.yShop a{
+	position: relative;
+	right: 500px;
+	top: 30px;
+	color: grey;
+}
+.boton3{
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 50px;
+}
+.boton3:hover{
+	background-color:#babbbb;
+}
+/*-------------------------- More --------------------------*/
+.banner4{
+	width: 100%;
+	height: 350px;
+	background-image: url(../img/yoga7.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.5;
+}
+
+.list{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	color: white;
+}
+.list ul{
+	list-style: none;
+}
+.list li{
+	margin: 5px;
+}
+.list a{
+	position: relative;
+	top: 20px;
+	color: white;
+}
+.boton4{
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 50px;
+}
+
+.list p{
+	color: white;
+}
+/*-------------------------- Banner 5 --------------------------*/
+.banner5{
+	width: 100%;
+    background: #021780;
+    text-align: center;
+}
+.bCont1{
+	width: 20%;
+	position: relative;
+	top: 10px;
+	left: 120px;
+}
+.bCont1 img{
+	width: 50px;
+	height: 50px;
+}
+.bCont1 p{
+	position: relative;
+	top: -25px;
+	left: 55px;
+	color: white;
+}
+.bCont2{
+	width: 60%;
+	position: relative;
+	left: 350px;
+	top: -35px;
+}
+.bCont2 p{
+	color: white;
+	text-align: center;
+}
+.bCont2 span{
+	color: grey;
+	
+}
+/*-------------------------- Footer --------------------------*/
+.footer{
+	width: 100%;
+	height: 100%;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #ff4c4c;
+}
+.footer img{
+	width: 170px;
+	height: 170px;
+	
+}
+.footer h2{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.footer p{
+	position: relative;
+	top: 5px;
+	font-size: 12px;
+	text-align: center;
+	color: grey;
+}
+.links2{
+	width: 45%;
+	position: relative;
+	top: 30px;
+	display: inline-block;
+	text-align: center;
+	
+}
+.links2 ul{
+	list-style: none;
+	width: 100%;
+	position: relative;
+	top: -20px;
+}
+.links2 li{
+	display: inline-block;
+	padding: 10px;	
+}
+.links2 a{
+	color: white;
+}
+.links2 a:hover{
+	color: red;
+}
+.links3{
+	width: 45%;
+	position: relative;
+	top: 30px;
+	left: 370px;
+	text-align: center;
+	
+}
+.links3 ul{
+	list-style: none;
+	width: 100%;
+	position: relative;
+	top: -20px;
+}
+.links3 li{
+	display: inline-block;
+	padding: 10px;	
+}
+.links3 img{
+	width: 25px;
+	height: 25px;
+}
